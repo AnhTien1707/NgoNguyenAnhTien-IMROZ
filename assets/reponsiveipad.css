@@ -1,0 +1,414 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .ptb--120 {
+    padding: 70px 0px;
+  }
+
+  header .navbar__imroz {
+  }
+
+  .navbar__imroz .nav-item {
+    display: none;
+  }
+
+  header .navbar_control .navbar_control-btn .btn_header-mobile {
+    font-size: 20px;
+    letter-spacing: 0;
+    padding: 16px 40px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 500px;
+    background-color: transparent;
+    border: 2px solid hsla(0, 0%, 100%, 0.2);
+    transition: all 0.5s;
+  }
+
+  .navbar_control {
+    display: flex !important;
+    align-items: center;
+  }
+
+  .navbar_control .navbar-control-icon {
+    font-size: 28px;
+    color: white;
+    padding-left: 20px;
+    margin-right: 20px;
+    transform: translateY(5px);
+  }
+
+  .btn-header {
+    display: none;
+  }
+
+  header .navbar__imroz-mobile {
+    width: 304px;
+    max-width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block !important;
+    padding: 0px;
+    box-shadow: 0 0 10px 0 rgb(149 161 158 / 70%);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all linear 0.5s;
+  }
+
+  header .navbar-overlay {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all 0.5s;
+    animation: fadeIn linear 0.5s;
+  }
+
+  .navbar__imroz-mobile-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 0px;
+  }
+
+  .navbar__imroz-mobile-img img {
+    width: 150px;
+  }
+
+  .navbar__imroz-mobile-img i {
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+  }
+
+  .btn-header-mobile {
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 7px 16px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    outline: none;
+    border: 2px solid hsla(0, 0%, 100%, 0.2);
+    background-color: transparent;
+  }
+
+  .navbar_list-mobile {
+    list-style: none;
+    padding: 5px 20px;
+  }
+
+  .nav-item-mobile {
+  }
+
+  .nav_imroz-link_mobile {
+    position: relative;
+    display: block;
+    padding: 14px 0px;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .nav_imroz-link_mobile:hover {
+    color: #fd4766;
+    text-decoration: none;
+  }
+
+  .nav_imroz-link_mobile--dropdown::after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: #1f1f25 transparent transparent transparent;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .navbar-input-mobile:checked ~ .navbar-overlay {
+    display: block !important;
+  }
+
+  .navbar-input-mobile:checked ~ .navbar__imroz-mobile {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  .CarouselImroz {
+  }
+
+  .carousel-caption h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-caption p {
+    font-size: 24px;
+    line-height: 1.8;
+  }
+
+  .carousel-caption a {
+    margin-top: 10px;
+  }
+
+  .carousel-control-next {
+    display: none;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .OurAwesome {
+    padding: 80px 0px;
+  }
+
+  .title h2 {
+    font-size: 40px;
+  }
+
+  .title p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #717173;
+    font-weight: 300;
+    line-height: 1.8;
+  }
+
+  .OurAwesome__Wrapper {
+    padding: 0px 50px;
+  }
+
+  .OurAwesome__items {
+    padding: 32px 20px;
+  }
+
+  .OurAwesome-content p {
+    font-size: 16px;
+  }
+
+  .Project .row {
+    padding: 0px 50px;
+  }
+
+  .project_title h4 a {
+    font-size: 22px;
+  }
+
+  .project_hover p {
+    font-size: 16px;
+  }
+
+  .rowAbout {
+    padding: 0px 50px;
+  }
+
+  .AboutImroz .rowAbout .title {
+    margin-top: 40px;
+  }
+
+  .tad-menu .nav-tab-Imroz {
+    border-radius: inherit;
+    border: 0 none;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  .tad-menu .nav-tab-Imroz li a {
+    color: rgba(29, 29, 36, 0.75);
+    font-size: 15px;
+    padding: 10px 16px;
+  }
+
+  .tab-pane p {
+    font-size: 18px;
+    color: #717173;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .AboutImroz .rowAbout .tad-menu .col-lg-12 {
+    padding: 0px;
+  }
+
+  .nav-tabs-testimonial {
+    margin-top: 30px;
+  }
+
+  .nav-tabs-testimonial .nav-item {
+    width: 26%;
+  }
+
+  .nav-tabs-testimonial .nav-item img {
+    border-radius: 6px;
+    width: 100%;
+    max-height: 140px;
+    min-height: 140px;
+    object-fit: cover;
+  }
+
+  .tad-testimonial h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.8;
+  }
+  .tad-testimonial p {
+    font-size: 18px;
+  }
+
+  .News .news_title h2 {
+    font-size: 16px;
+  }
+
+  .News .news_title h4 a {
+    font-size: 22px;
+  }
+
+  .clients--mobile {
+    width: 33.333333%;
+  }
+
+  .clients-img {
+    width: 100%;
+  }
+
+  .clients-img img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .footer-top {
+    display: block !important;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .footer-top h2 {
+    font-size: 26px;
+  }
+
+  .footer-top h2 br{
+    display: none;
+  }
+  .footer-top a {
+    padding: 16px 30px;
+    margin-top: 20px;
+  }
+
+  .footer-link{
+    margin-top: 30px;
+  }
+
+
+  .footer-coppyright p br{
+    display: none;
+  }
+
+  .footer-bottom{
+    padding: 70px 50px ;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    header .navbar__imroz{
+        padding: 20px 30px;
+    }
+   
+    header .btn-header{
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 10px 27px;
+    margin-left: 0px;
+   }
+
+   .navbar__imroz ul li{
+    margin: 0px;
+    margin-right: 14px;
+   }
+
+   .carousel-caption h1{
+    font-size: 72px;
+   }
+
+   .carousel-caption p {
+    padding: 0px 40px;
+   }
+
+   .carousel-control-next ,
+   .carousel-control-prev{
+    display: none;
+
+   }
+
+   .project_title h4 a{
+    font-size: 24px;
+   }
+
+   .project_title{
+    transform: translateY(80px);
+   }
+
+   .tad-menu .nav-tab-Imroz li a{
+    font-size: 14px;
+    color: rgba(29,29,36,.75);
+    padding: 10px 20px;
+   }
+
+   .tad-testimonial h2{
+    font-size: 24px;
+    line-height: 44px;
+   }
+
+   .Testimonial .nav-item{
+    width: 33.33333333%;
+   }
+
+   .Testimonial .nav-item img{
+    width: 100%;
+    object-fit: cover;
+   }
+
+   .News .news_title h2{
+    font-size: 16px;
+   }
+
+   .News .news_title h4 a{
+    font-size: 20px;
+   }
+
+   .footer-top{
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+   .footer-coppyright p br{
+    display: none;
+   }
+   .footer-bottom{
+    padding-left: 20px;
+   }
+
+   .OurAwesome-content p{
+    font-size: 18px;
+   }
+}
+
